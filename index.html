@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>OC plans prototype</title>
+    <script src="https://unpkg.com/elm-pep"></script>
+    <style>
+      html, body {
+        padding: 0;
+        margin: 0;
+        width: auto;
+        height: auto;
+      }
+      .map {
+        padding: 0;
+        margin: 0;
+        width:100%;
+        height: 1000px;
+      }
+      #map:focus {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" class="map" tabindex="0"></div>
+    <script src="index.ts"></script>
+  </body>
+</html>
